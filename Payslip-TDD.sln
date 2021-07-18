@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payslip-TDD", "Payslip-TDD\Payslip-TDD.csproj", "{D2797126-2F6D-4A00-B3AB-CDECBF74F5BE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payslip-TDD.Test", "Payslip-TDD.Test\Payslip-TDD.Test.csproj", "{F44551F3-B945-49CF-8D5D-290CC0384DF1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{D2797126-2F6D-4A00-B3AB-CDECBF74F5BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2797126-2F6D-4A00-B3AB-CDECBF74F5BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2797126-2F6D-4A00-B3AB-CDECBF74F5BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F44551F3-B945-49CF-8D5D-290CC0384DF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F44551F3-B945-49CF-8D5D-290CC0384DF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F44551F3-B945-49CF-8D5D-290CC0384DF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F44551F3-B945-49CF-8D5D-290CC0384DF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
