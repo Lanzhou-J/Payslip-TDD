@@ -1,4 +1,5 @@
 ﻿using System;
+using Payslip_TDD.InputOutput;
 
 namespace Payslip_TDD
 {
@@ -6,7 +7,10 @@ namespace Payslip_TDD
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var input = new ConsoleInput();
+            var output = new ConsoleOutput();
+            var payslipApp = new PayslipApp(input, output);
+            
         }
     }
 }
