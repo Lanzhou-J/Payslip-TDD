@@ -6,7 +6,7 @@ namespace Payslip_TDD.InputOutput
     {
         public string Ask(string question)
         {
-            Console.WriteLine(question);
+            Console.Write(question);
             return Console.ReadLine();
         }
     }

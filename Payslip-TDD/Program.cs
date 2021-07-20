@@ -10,7 +10,10 @@ namespace Payslip_TDD
             var input = new ConsoleInput();
             var output = new ConsoleOutput();
             var payslipApp = new PayslipApp(input, output);
-            
+
+            var payslip =  payslipApp.GeneratePayslip();
+            payslipApp.OutputPayslip(payslip);
+
         }
     }
 }

@@ -30,5 +30,11 @@ namespace Payslip_TDD
             var name = employee.FullName;
             return new Payslip(name);
         }
+        
+        public void OutputPayslip(Payslip payslip)
+        {
+            _output.Write("");
+            _output.Write(payslip.ToString());
+        }
     }
 }
