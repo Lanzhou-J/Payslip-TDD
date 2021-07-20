@@ -7,15 +7,15 @@ namespace Payslip_TDD
         private readonly string _lastName;
         private readonly string _firstName;
         public string FullName { get; }
+        public SalaryPackage SalaryPackage { get; private set; }
 
-        public Employee(string firstName, string lastName)
+        public Employee(string firstName, string lastName, SalaryPackage salaryPackage)
         {
             _lastName = lastName;
+            SalaryPackage = salaryPackage;
             _firstName = firstName;
             FullName = CreateFullName();
         }
-        
-        
 
         private string CreateFullName()
         {

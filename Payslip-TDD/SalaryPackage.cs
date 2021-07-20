@@ -10,6 +10,6 @@ namespace Payslip_TDD
             AnnualSalary = annualSalary;
             SuperRate = superRate;
         }
-
+        
     }
 }

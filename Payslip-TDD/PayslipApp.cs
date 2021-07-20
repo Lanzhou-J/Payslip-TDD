@@ -12,5 +12,10 @@ namespace Payslip_TDD
             _input = input;
             _output = output;
         }
+
+        public Payslip GeneratePayslip()
+        {
+            return new Payslip();
+        }
     }
 }
